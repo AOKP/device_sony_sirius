@@ -52,6 +52,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/thermanager.xml:system/etc/thermanager.xml
 
+# TWRP
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/twrp.fstab:recovery/root/etc/twrp.fstab
+
 # Wifi
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/bcmdhd.cal:system/etc/wifi/bcmdhd.cal
